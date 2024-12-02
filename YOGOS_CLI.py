@@ -60,11 +60,7 @@ def predict_next_prime(index, params, primes):
     next_prime_candidate = round(next_prime_candidate)
 
     # Directly check if the predicted candidate is prime
-    if isprime(next_prime_candidate):
-        return next_prime_candidate
-    else:
-        # If it's not prime, return the closest prime
-        return next_prime_candidate
+    return next_prime_candidate
 
 
 # Step 6: Generate primes for any index
